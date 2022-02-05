@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,oBAAoB,CAAA;EAChB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../Layouts/categories.scss"
+    ],
+    "names": [],
+    "file": "categories.css"
+}

@@ -1,0 +1,23 @@
+// background: color url() position/bg-size/bg-repeat
+.banner{
+    // 61 độ là vị trí kết thúc 41% sẽ vùng màu tím
+    background: url("../img/udemy-logo-semi-transparent.svg") 0/30% no-repeat, linear-gradient(61deg, $color-purple, $color-blue-1 41%);
+    //hòa trộn màu trung hòa màu 2 background color và img
+    background-blend-mode: overlay;
+    height: 325px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    h2{
+        @include styleText($color-white-0,$fs-4,$fw-0);
+    }
+    p{
+        color: $color-white-0;
+        //xóa margin mặc định bootstrap
+        margin-bottom: 0;
+    }
+    .button--red{
+        margin: $mg-3 0;
+    }
+
+} 

@@ -1,0 +1,19 @@
+.students{
+    padding: $mg-5 0;
+    .students__content{
+        width: 90%;
+        margin: 0 auto;
+        h2{
+            font-size: $fs-5;
+            margin-bottom: $mg-2;
+        }
+        .owl-carousel .owl-nav button.owl-prev {
+            left: -34px;
+            top: 112px;
+        }
+        .owl-carousel .owl-nav button.owl-next {
+            right: -30px;
+            top: 112px;
+        }
+    }
+}

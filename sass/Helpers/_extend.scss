@@ -1,0 +1,13 @@
+// .backgroundImg {
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+//khai báo kiểu placeholder chỉ biên dịch og kế thừa, những phần sau trong đây
+//không được biên dịch
+%backgroundImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

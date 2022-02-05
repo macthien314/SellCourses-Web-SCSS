@@ -1,0 +1,32 @@
+// chứa đường dẫn truy cập file con
+@import "./Helpers/variables";
+@import "./Helpers/mixin"; //khai báo hàm
+@import "./Helpers/extend";
+
+//Vendors thư viện
+
+@import './Base/reset';
+@import './Base/customize';
+
+@import './Layouts/header';
+@import './Layouts/footer';
+@import './Layouts/intro';
+@import './Layouts/courses';
+@import './Layouts/viewing';
+@import './Layouts/banner';
+@import './Layouts/categories';
+@import './Layouts/students';
+@import './Layouts/partners';
+@import './Layouts/jobs';
+@import './Layouts/footer';
+
+
+@import './Components/button';
+@import './Components/cover';
+@import './Components/card';
+
+
+
+@import './Pages/home';
+
+//Theme
